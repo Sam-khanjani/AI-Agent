@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+.adk
 # Distribution / packaging
 .Python
 build/
@@ -60,6 +60,10 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+
+# Local SQLite databases (e.g. ADK session/memory stores)
+*.db
+*.db-journal
 
 # Flask stuff:
 instance/
