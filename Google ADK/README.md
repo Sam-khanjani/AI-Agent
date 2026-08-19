@@ -4,6 +4,11 @@ Hands-on notebooks and a small sample project for learning the
 [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/) — building,
 running, and debugging LLM agents backed by Gemini models.
 
+These are sample/learning files, not production code — each notebook is a
+small, focused example meant to build up basic, practical knowledge of
+Agentic AI and GenAI development (agent structure, tool use, multi-agent
+orchestration, memory) rather than a polished application.
+
 ## Contents
 
 | File | Topic |
@@ -43,6 +48,5 @@ installed on your system.
 
 ## Notes
 
-- `.env` files, local SQLite databases (`*.db`), and the `.adk/` runtime directories
-  (session/artifact storage created when running agents) are git-ignored — they hold
-  API keys and local conversation state that shouldn't be published.
+- The `.adk/` directories (session/artifact storage created when running agents)
+  hold local conversation state, not source.
