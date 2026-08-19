@@ -65,6 +65,11 @@ db.sqlite3-journal
 *.db
 *.db-journal
 
+# ChromaDB local vector store (rebuildable via embed_documents.py; source PDFs are kept)
+chroma_db/
+*.chroma/
+chroma.sqlite3
+
 # Flask stuff:
 instance/
 .webassets-cache
